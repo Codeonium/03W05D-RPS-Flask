@@ -5,23 +5,25 @@
     <hr>
     <h2>
     <form action="" method="POST">
-    <label for="select"> {{player1}} please select</label>
-    <select>
-        <option>&#9994;</option>
-        <option>&#9995;</option>
-        <option>&#9996;</option>
-    </select>
-    <button type="submit">Submit</button>
-    </form>
+        <label for="selection1"> {{player1}}: </label>
+        <br>
+        <input list="selection1" placeholder="Please Select" required>
+            <datalist  id="selection1" name="selection1">
+                <option value="&#9994;">
+                <option value="&#9995;">
+                <option value="&#9996;">
+            </datalist>
     <hr>
-    <form action="" method="POST">
-    <label for="select"> {{player2}} please select</label>
-    <select>
-        <option>&#9994;</option>
-        <option>&#9995;</option>
-        <option>&#9996;</option>
-    </select>
-    <button type="submit">Submit</button>
+        <label for="selection2"> {{player2}}: </label>
+        <br>
+        <input list="selection2" placeholder="Please Select" required>
+            <datalist id="selection2" name="selection2">
+                <option value="&#9994;">
+                <option value="&#9995;">
+                <option value="&#9996;">
+            </datalist>
+    <hr>
+        <button type="submit">Submit</button>
     </form>
     </h2>
 {% endblock %}
