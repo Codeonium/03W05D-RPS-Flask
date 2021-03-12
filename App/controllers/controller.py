@@ -13,4 +13,7 @@ def create_game():
 def return_scores():
     return render_template('scores.html', title='RPS - The Game')
 
+@app.route('/rock/scissors')
+def return_rock_win():
+    return render_template('rock/scissors.html', title='RPS - The Game')
 
