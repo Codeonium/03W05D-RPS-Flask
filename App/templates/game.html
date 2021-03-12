@@ -2,6 +2,7 @@
 
 {% block content %}
     <h1> Welcome to your game</h1>
+    <video src="{{ url_for('static', filename='css/game1.mp4') }}" autoplay=on> Greetings and Welcome</video>
     <hr>
     <h2>
     <form action="" method="POST">
@@ -23,7 +24,7 @@
                 <option value="&#9996;">
             </datalist>
     <hr>
-        <button type="submit" style="width: 100%;">Submit</button>
+        <button type="submit" style="width: 100%; height: 2rem; border-radius: 20%; border-bottom-color: blue; border-top-color: crimson;">Submit</button>
     </form>
     </h2>
 {% endblock %}
