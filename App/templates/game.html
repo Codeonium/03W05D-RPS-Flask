@@ -2,4 +2,26 @@
 
 {% block content %}
     <h1> Welcome to your game</h1>
+    <hr>
+    <h2>
+    <form action="" method="POST">
+    <label for="select"> {{player1}} please select</label>
+    <select>
+        <option>&#9994;</option>
+        <option>&#9995;</option>
+        <option>&#9996;</option>
+    </select>
+    <button type="submit">Submit</button>
+    </form>
+    <hr>
+    <form action="" method="POST">
+    <label for="select"> {{player2}} please select</label>
+    <select>
+        <option>&#9994;</option>
+        <option>&#9995;</option>
+        <option>&#9996;</option>
+    </select>
+    <button type="submit">Submit</button>
+    </form>
+    </h2>
 {% endblock %}
