@@ -1,0 +1,2 @@
+FLASK_APP=run_game.py
+FLASK_ENV=development
