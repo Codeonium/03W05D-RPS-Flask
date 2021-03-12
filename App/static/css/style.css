@@ -1,19 +1,14 @@
-.navigation{
-    /* display: inline-block; */
-}
-
-.navigation ul {
-
-}
 
 .navigation ul li{
-    display: inline-block;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
 }
 
 body {
     background-color:burlywood;
+}
+
+h1 {
+    text-align: center;
 }

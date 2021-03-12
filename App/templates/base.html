@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='css/fill.jpeg') }}" type="image">
     <title> {{ title }} </title>
 </head>
 <body>
@@ -12,20 +13,31 @@
         <nav class="navigation">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/Scores">High Scores</a></li>
-                <li><a href="/Game">Play Game</a></li>
+                <li><a href="/scores">High Scores</a></li>
+                <li><a href="/game">Play Game</a></li>
             </ul>
         </nav>
     </header>
-    
     <hr>
     {% block content %}
-    
+        <h1> Welcome <br> &#9994;&#9995;&#9996; <br> The Game</h1>
+    <hr>
+        <h2>The rules of the game:</h2>
+            <ol>
+                <li>Play nice to each other</li>
+                <li>Pick between &#9994; or &#9995; or &#9996;</li>
+                <li>You opponent will do the same</li>
+                <li>&#9994; vs &#9995; : &#9995; wins</li>
+                <li>&#9994; vs &#9996; : &#9994; wins</li>
+                <li>&#9996; vs &#9995; : &#9996; wins</li>
+                <li>If i think you been playing for too long... well, wait and see what happens</li>
+            </ol>
+
     {% endblock %}
     <hr>
 
     <footer>
-
+        <h6>This game can be highly addictive, drink plenty of liquids</h6>
     </footer>
 </body>
 </html>
