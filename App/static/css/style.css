@@ -1,8 +1,9 @@
 
-.navigation ul li{
+.navigation ul{
     display: flex;
     justify-content: space-around;
     margin: 2em;
+    border: 3px dashed rebeccapurple;
 }
 
 body {
@@ -14,5 +15,24 @@ h1 {
 }
 
 h2 {
+    text-align: center;
+}
+
+h2, ol {
+    display: block;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    word-wrap: break-word;
+    padding: 50px;
+    border: 20px solid blue;
+    margin: 30px;
+}
+
+li {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: 10px solid black;
     text-align: center;
 }
