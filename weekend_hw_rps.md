@@ -12,9 +12,9 @@ Create a simple flask app to allow the user to play [rock, paper, scissors](http
 
 ### Extensions:
 
-- Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this in the base template.
+<!-- - Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this in the base template. -->
 
-- Add some CSS to either/both of your pages.
+<!-- - Add some CSS to either/both of your pages. -->
 
 - Refactor the `game` file into a `Game` class which will store the players as properties, the function which determines the winner will be a method on the class.
 
